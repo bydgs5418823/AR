@@ -4,14 +4,6 @@
 # These large files are hosted on a shared cloud drive/network disk.
 # See README.md (📥 大文件下载与放置指南) for download and placement instructions.
 
-# ============================================
-# EEG Real-time Inference System
-# ============================================
-# This directory contains the EEG emotion inference system.
-# See README_realtime_inference.md for details.
-# Upstream project: https://github.com/ThirteenAsh/eeg_modular
-realtime_inference/
-
 # Astronaut 3D assets (44MB GLB + textures)
 astronaut/
 
@@ -20,6 +12,9 @@ moon/
 
 # Main textures directory (moved to Assets/Models/... but keep for reference)
 textures/
+
+# EEG real-time inference module
+realtime_inference/
 
 # My project/Assets/Models/ - large 3D files only (but keep .meta files!)
 # Note: .meta files are critical - DO NOT ignore them!
@@ -163,3 +158,4 @@ prn
 aux
 com[0-9]
 lpt[0-9]
+.realtime_inference/
